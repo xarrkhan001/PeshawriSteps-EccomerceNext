@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
       }}
       className="flex flex-col items-start gap-0.5 max-w-[200px] w-full cursor-pointer"
     >
-      <div className="cursor-pointer group relative bg-gray-600/10 rounded-lg w-full h-52 flex items-center justify-center">
+      <div className="cursor-pointer group relative bg-gradient-to-r from-gray-50 to-purple-100 rounded-lg w-full h-52 flex items-center justify-center">
         <Image
           src={product.image[0]}
           alt={product.name}
